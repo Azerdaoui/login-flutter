@@ -6,7 +6,6 @@ class Login extends StatefulWidget{
     return new LoginState();
   }
 }
-
 class LoginState extends State<Login>{
   TextEditingController _usernameController = new TextEditingController();
   TextEditingController _passwordController = new TextEditingController();
@@ -35,7 +34,7 @@ class LoginState extends State<Login>{
         padding: EdgeInsets.only(top: 50),
         child: new ListView(
           children: <Widget>[
-            // new Image.asset('images/logo.png', width: 100, height: 50,),
+            new Image.asset('images/logo.png', height: 80),
             new Container(
               padding: EdgeInsets.only(top: 10),
               margin: EdgeInsets.fromLTRB(5, 20, 5, 5),
